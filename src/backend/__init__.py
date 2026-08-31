@@ -1,2 +1,2 @@
-def main() -> None:
-    print("Hello from backend!")
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
